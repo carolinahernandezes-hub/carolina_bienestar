@@ -1,0 +1,86 @@
+.banner-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #9bbfe9;
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+.intro {
+max-width: 900px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(111, 209, 233, 0.541);
+}
+
+/* Animación */
+@keyframes fadeIn {
+0% { opacity: 0; transform: translateY(20px); }
+100% { opacity: 1; transform: translateY(0); }
+}
+
+.animar {
+animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+h2{ 
+  background-color:#9bbfe9;
+}
+p{ 
+  background: size 4px;;
+}
+.navbar .btn {
+  margin-right: 10px; /* separa los botones */
+}
+
+#salud{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(155, 231, 221, 0.568);
+  backdrop-filter:blur (6px);
+  padding: 12px 20px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid rgb(116, 195, 231);
+  box-shadow: 0 0 12px #6b93e9;
+  z-index: 999999999;
+} 
+
+#salud a{
+  color: rgb(78, 164, 245);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+#salud a:hover{
+  color: rgb(124, 251, 255);
+  text-shadow: 0 0 8px rgb(46, 135, 219);
+font-size: 16px;
+}
+hr{
+  color: #6b93e9;
+}
+#salud {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px;                  
+    padding: 10px;              
+}
+
+body {
+    padding-top: 30px;   /* Ajusta según el tamaño de tu barra */
+}

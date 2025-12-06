@@ -1,0 +1,211 @@
+body { 
+    background-image: url('papel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    color: #2d3e40;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+:root {
+    --color-primario: #d392e7;   
+    --color-secundario: #76aff1; 
+    --color-fondo: #f2f9ff;     
+    --color-texto: #2c3e50;
+    --color-suave: #e8f3ff;
+}
+
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: var(--color-suave);
+    border-radius: 10px;
+    margin: 25px auto;
+    max-width: 900px;
+}
+
+header h1 {
+    color: var(--color-primario);
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+
+.card {
+    border-radius: 12px;
+    transition: 0.3s ease;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+
+footer {
+    background: linear-gradient(90deg, var(--color-primario), var(--color-secundario));
+    font-size: 0.9rem;
+}
+
+
+button, .btn {
+    border-radius: 8px !important;
+    padding: 10px 18px;
+    transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    transform: scale(1.05);
+}
+
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: aparecer 0.6s ease forwards;
+}
+.card {
+    animation: aparecer 0.6s ease forwards;
+}
+
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+.card:hover {
+  transform: scale(1.07);  
+  box-shadow: 0 4px 10px rgba(2, 2, 2, 0.2);  
+  background-color: #f0f8ff;  /
+}
+
+
+.card.border-success:hover {
+  background-color: rgba(255, 240, 31, 0.568);  
+}
+
+.card.border-primary:hover {
+  background-color: rgba(13, 109, 253, 0.199);  
+}
+
+.card.border-warning:hover {
+  background-color: rgba(126, 46, 255, 0.315);  
+}
+
+.card.border-danger:hover {
+  background-color: rgba(220, 53, 70, 0.288);  
+}
+
+.card.border-info:hover {
+  background-color: rgba(23, 163, 184, 0.356);  
+}
+
+.card.border-dark:hover {
+  background-color: rgba(126, 219, 114, 0.521);  
+}
+
+
+#salud{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(213, 155, 231, 0.568);
+  backdrop-filter:blur (6px);
+  padding: 12px 20px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid rgb(205, 142, 218);
+  box-shadow: 0 0 12px #a67aee;
+  z-index: 999999999;
+} 
+
+#salud a{
+  color: rgb(162, 90, 204);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+#salud a:hover{
+  color: rgb(202, 73, 228);
+  text-shadow: 0 0 8px rgb(156, 24, 101);
+font-size: 16px;
+}
+body {
+    padding-top: 80px;   /* Ajusta según el tamaño de tu barra */
+}
+.card-img-bottom {
+    height: 200px;       /* Ajusta la altura que quieras */
+    object-fit: cover;   /* Recorta la imagen sin deformarla */
+    width: 100%;         /* Ocupa todo el ancho de la tarjeta */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text-purple {
+    color: #6a0dad !important;   /* Morado */
+}
+
+.border-purple {
+    border-color: #6a0dad !important; /* Borde morado */
+}
+
+
+.text-purple {
+color: #8e44ad !important;
+}
+
+.border-purple:hover {
+border-color: #6d3590 !important;
+box-shadow: 0 0 15px #c39bd3;
+}
+
+
+
